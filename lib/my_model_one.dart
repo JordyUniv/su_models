@@ -1,11 +1,11 @@
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 
-class NumberTrivia extends Equatable {
+class MyModelOne extends Equatable {
   final String text;
   final int number;
 
-  NumberTrivia({
+  MyModelOne({
     @required this.text,
     @required this.number,
   }): super([text, number]);
